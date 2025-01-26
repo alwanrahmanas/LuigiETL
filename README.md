@@ -37,11 +37,11 @@ The pipeline is orchestrated using **Luigi**, a Python library for building comp
 
 3. Set up Env
 
-DB_USER_Neon=your_db_user
-DB_PASSWORD_Neon=your_db_password
-DB_HOST_Neon=your_db_host
-DB_NAME_Neon=your_db_name
-DB_SSLMODE_Neon=require
+- DB_USER_Neon=your_db_user
+- DB_PASSWORD_Neon=your_db_password
+- DB_HOST_Neon=your_db_host
+- DB_NAME_Neon=your_db_name
+- DB_SSLMODE_Neon=require
 
 4. Run The Pipeline
 
