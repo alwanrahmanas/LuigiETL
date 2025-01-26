@@ -11,7 +11,7 @@ This project is a data pipeline built using **Luigi** to extract, transform, and
 - [Usage](#usage)
 - [Project Structure](#project-structure)
 - [Contributing](#contributing)
-- [License](#license)
+
 
 ## About
 The project consists of the following tasks:
@@ -101,35 +101,7 @@ Contributions are welcome! Please follow these steps:
 
 5. Open a pull request.
 
-## License
 
-
----
-
-### **Key Sections Explained**
-
-1. **About**:
-   - Provides a high-level overview of the project and its purpose.
-
-2. **Features**:
-   - Lists the key functionalities of the project.
-
-3. **Installation**:
-   - Step-by-step instructions to set up and run the project.
-
-4. **Usage**:
-   - Explains how to use the pipeline and run the tasks.
-
-5. **Project Structure**:
-   - Describes the organization of files and folders in the project.
-
-6. **Contributing**:
-   - Guidelines for contributing to the project.
-
-7. **License**:
-   - Specifies the license under which the project is distributed.
-
----
 
 
 
