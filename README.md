@@ -52,7 +52,7 @@ python -m luigi --module main LoadData --local-scheduler
 ## Usage
 
 1. Extract
-The ExtractFromDB task fetches data from a PostgreSQL database.
+- The ExtractFromDB task fetches data from a PostgreSQL database.
 
 The ExtractFromJson task fetches data from a JSON file.
 
