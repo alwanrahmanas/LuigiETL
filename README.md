@@ -45,7 +45,9 @@ The pipeline is orchestrated using **Luigi**, a Python library for building comp
 
 4. Run The Pipeline
 
+```
 python -m luigi --module main LoadData --local-scheduler
+```
 
 ## Project Structure
 ```
