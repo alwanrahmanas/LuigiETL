@@ -1,7 +1,8 @@
-from Extract import ExtractFromJson, ExtractFromDB
-from Transform import TransformTask
-from Load import LoadData
+from module.Extract import ExtractFromJson, ExtractFromDB
+from module.Transform import TransformTask
+from module.Load import LoadData
 import luigi
+
 
 if __name__ == '__main__':
     # Run the Luigi pipeline
