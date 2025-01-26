@@ -54,19 +54,19 @@ python -m luigi --module main LoadData --local-scheduler
 1. Extract
 - The ExtractFromDB task fetches data from a PostgreSQL database.
 
-The ExtractFromJson task fetches data from a JSON file.
+- The ExtractFromJson task fetches data from a JSON file.
 
 2. Transform
-The TransformTask performs the following transformations:
+- The TransformTask performs the following transformations:
 
-Joins customer and reservation data.
+- Joins customer and reservation data.
 
-Adds new columns (full_name, currency, email_domain).
+- Adds new columns (full_name, currency, email_domain).
 
-Handles missing values in the payment_date column.
+- Handles missing values in the payment_date column.
 
 3. Load
-The LoadData task loads the transformed data into a PostgreSQL database.
+- The LoadData task loads the transformed data into a PostgreSQL database.
 
 ## Project Structure
 ```
