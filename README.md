@@ -49,6 +49,25 @@ The pipeline is orchestrated using **Luigi**, a Python library for building comp
 python -m luigi --module main LoadData --local-scheduler
 ```
 
+## Usage
+
+1. Extract
+The ExtractFromDB task fetches data from a PostgreSQL database.
+
+The ExtractFromJson task fetches data from a JSON file.
+
+2. Transform
+The TransformTask performs the following transformations:
+
+Joins customer and reservation data.
+
+Adds new columns (full_name, currency, email_domain).
+
+Handles missing values in the payment_date column.
+
+3. Load
+The LoadData task loads the transformed data into a PostgreSQL database.
+
 ## Project Structure
 ```
 project/
@@ -63,3 +82,50 @@ project/
 └── README.md             # Project documentation
 
 ```
+
+## Contributing
+
+Contributions are welcome! Please follow these steps:
+
+1. Fork the repository.
+
+2. Create a new branch (git checkout -b feature-branch).
+
+3. Commit your changes (git commit -m "Add new feature").
+
+4. Push to the branch (git push origin feature-branch).
+
+5. Open a pull request.
+
+## License
+
+
+---
+
+### **Key Sections Explained**
+
+1. **About**:
+   - Provides a high-level overview of the project and its purpose.
+
+2. **Features**:
+   - Lists the key functionalities of the project.
+
+3. **Installation**:
+   - Step-by-step instructions to set up and run the project.
+
+4. **Usage**:
+   - Explains how to use the pipeline and run the tasks.
+
+5. **Project Structure**:
+   - Describes the organization of files and folders in the project.
+
+6. **Contributing**:
+   - Guidelines for contributing to the project.
+
+7. **License**:
+   - Specifies the license under which the project is distributed.
+
+---
+
+
+
