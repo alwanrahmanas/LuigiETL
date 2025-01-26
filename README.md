@@ -48,7 +48,7 @@ DB_SSLMODE_Neon=require
 python -m luigi --module main LoadData --local-scheduler
 
 ## Project Structure
----
+```
 project/
 ├── module/
 │   ├── __init__.py       # Empty file to make `module` a package
@@ -60,4 +60,4 @@ project/
 ├── .env                  # Environment variables
 └── README.md             # Project documentation
 
----
+```
