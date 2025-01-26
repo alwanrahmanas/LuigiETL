@@ -30,7 +30,7 @@ The pipeline is orchestrated using **Luigi**, a Python library for building comp
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/username/repo-name.git
+   git clone https://github.com/alwanrahmanas/LuigiETL.git
    cd repo-name
 
 2. pip install -r requirements.txt
@@ -71,6 +71,10 @@ python -m luigi --module main LoadData --local-scheduler
 ## Project Structure
 ```
 project/
+├── data/
+├── docker/
+│   ├── dokcer-compose.yml       # yml extension
+│   ├── init.sql        # one of data source
 ├── module/
 │   ├── __init__.py       # Empty file to make `module` a package
 │   ├── Extract.py        # Contains ExtractFromJson and ExtractFromDB
