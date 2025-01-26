@@ -1,0 +1,14 @@
+version: '3'
+services:
+  data_warehouse_hotel_db:
+    image: postgres:17
+    container_name: data_warehouse_hotel_db
+    restart: always
+    environment:
+      - POSTGRES_DB=${DB_NAME}
+      - POSTGRES_USER=${DB_USER}
+      - POSTGRES_PASSWORD=${DB_PASSWORD}
+    volumes:
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
+    ports:
+      - 5434:5432
